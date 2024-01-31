@@ -1,0 +1,40 @@
+body{background-color: pink;}
+
+#what{
+    margin-left: 400px;
+    margin-top: 100px;
+    border: 5px solid black;
+    border-radius: 25px;
+    width: 650px;
+height:500px;
+background-color: red;
+font-size: 10em;
+text-align: center;
+ font-family: cursive;
+ padding: auto;
+ box-sizing: border-box;
+ float: left;
+ overflow: auto;
+ animation-name:grow;
+ animation-duration: 3s;
+animation-iteration-count: 2;
+ animation-timing-function: linear;
+ 
+
+
+}
+@keyframes slideright{
+from{transform: translateX(600px)}
+}
+@keyframes slideright{
+    to{transform: translateX(600px)}}
+
+    @keyframes slideUp{
+        from{transform: translateY(600px)}}
+        @keyframes slideDown{
+            to{transform: translateY(600px)}}
+            @keyframes grow{50%{transform:scale(2, 2)}}
+            @keyframes fadein{ 100%{opacity:1}}
+                
+
+    
